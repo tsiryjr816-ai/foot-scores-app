@@ -3,17 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Matchs du Jour</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 10px; text-align: center; background-color: #f4f4f4; }
-    h1 { color: #0046c7; font-size: 20px; }
-    iframe { width: 100%; max-width: 600px; height: 750px; border: 0; border-radius: 10px; }
-  </style>
+  <title>Matchs de Football du Jour</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>⚽ Direct & Calendrier Football</h1>
-  <iframe src="https://widgets.sofascore.com/embed/football" scrolling="no"></iframe>
+  <h1>⚽ Matchs & Direct du Jour</h1>
+  <div id="status">Chargement des matchs...</div>
+  <div id="matchs-container"></div>
 
+  <script src="script.js"></script>
 </body>
 </html>
