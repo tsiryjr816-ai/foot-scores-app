@@ -5,12 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matchs de Football en Direct</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 10px; background-color: #f4f4f4; text-align: center; }
-    iframe { width: 100%; max-width: 800px; height: 700px; border: none; border-radius: 8px; }
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      padding: 10px; 
+      background-color: #1a1a1a; 
+      color: #fff;
+      text-align: center; 
+    }
+    h1 {
+      color: #00e676;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    iframe { 
+      width: 100%; 
+      max-width: 650px; 
+      height: 800px; 
+      border: none; 
+      border-radius: 8px; 
+      background: #fff;
+    }
   </style>
 </head>
 <body>
-  <h1>⚽ Direct & Matchs du Jour</h1>
-  <iframe src="https://www.scoreaxis.com/widget/live-scores-widget?autoHeight=1" scrolling="yes"></iframe>
+
+  <h1>⚽ Matchs & Direct du Jour</h1>
+  
+  <!-- Widget Livescore Vitsy sy à jour -->
+  <iframe src="https://www.statscore.com/widget/livescore/football" id="statscore-iframe"></iframe>
+
 </body>
 </html>
